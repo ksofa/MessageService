@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeerGrade_7</name>
+    </assembly>
+    <members>
+        <member name="M:PeerGrade_7.Controllers.MailController.#ctor">
+            <summary>
+            Json.
+            </summary>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.ExistEmail(System.String)">
+            <summary>
+            Проверка на уникальность.
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetData">
+            <summary>
+            Запись в json.
+            </summary>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetAll">
+            <summary>
+            Возвращает всех пользователей и сообщения.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetAllUsers">
+            <summary>
+            Возвращает всех пользователей.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetLimit(System.Int32,System.Int32)">
+            <summary>
+            Кол-во пол-лей из позиции.
+            </summary>
+            <param name="limit">Кол-во пользователей</param>
+            <param name="position">Позиция</param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetEmail(System.String)">
+            <summary>
+            Пользователь по email.
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetMail(System.String,System.String)">
+            <summary>
+            Обр. от отправителя и получателя.
+            </summary>
+            <param name="sender">отправитель</param>
+            <param name="received">получатель</param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetMailByReciever(System.String)">
+             <summary>
+            Сообщ. получателя.
+             </summary>
+             <param name="receivedId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.GetSenderMail(System.String)">
+            <summary>
+            Сооб. от отправителя.
+            </summary>
+            <param name="senderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.POST">
+            <summary>
+            Инициализация списка пользователей и списка.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.Register(PeerGrade_7.Models.Users)">
+            <summary>
+            Регистрация.
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Controllers.MailController.Send(PeerGrade_7.Models.Messages)">
+            <summary>
+            Отправка.
+            </summary>
+            <param name="mail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.Messages.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Конструктор.
+            </summary>
+            <param name="subject"></param>
+            <param name="message"></param>
+            <param name="recieverId"></param>
+            <param name="senderId"></param>
+        </member>
+        <member name="T:PeerGrade_7.Models.RandomGen">
+            <summary>
+            Класс для генерации.
+            </summary>
+        </member>
+        <member name="M:PeerGrade_7.Models.RandomGen.RandomMessage">
+            <summary>
+            Генерируем сообщение.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.RandomGen.RandomEmail">
+            <summary>
+            Генерируем email.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.RandomGen.RandomUserName">
+            <summary>
+            Генерируем имя.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.RandomGen.RandomSubject">
+            <summary>
+            Generate random subject.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.Users.CompareTo(System.Object)">
+            <summary>
+            Метод сравнения.
+            </summary>
+            <param name="per"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeerGrade_7.Models.Users.#ctor">
+            <summary>
+            Конструктор.
+            </summary>
+        </member>
+        <member name="M:PeerGrade_7.Models.Users.#ctor(System.String,System.String)">
+             <summary>
+            Конструктор 2.
+             </summary>
+             <param name="email"> почта </param>
+             <param name="userName"> имя </param>
+        </member>
+    </members>
+</doc>
